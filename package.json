@@ -1,0 +1,32 @@
+{
+  "name": "dnif",
+  "version": "0.1.0",
+  "description": "Find files up the directory tree",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benzaita/dnif.git"
+  },
+  "keywords": [
+    "find", "reverse"
+  ],
+  "author": "Itamar B",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benzaita/dnif/issues"
+  },
+  "homepage": "https://github.com/benzaita/dnif#readme",
+  "devDependencies": {
+    "mktemp": "^0.4.0",
+    "rmdir": "^1.2.0"
+  },
+  "dependencies": {
+    "debug": "^2.2.0"
+  }
+}
